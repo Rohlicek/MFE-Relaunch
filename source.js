@@ -238,20 +238,20 @@
     var basicBot = {
         version: "2.9.1",
         status: false,
-        name: "Mfebot",
+        name: "MFEBOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://bit.ly/2oLRSIT",
         chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "MfeBot",
+            botName: "MFEBOT",
             language: "english",
-            chatLink: "https://raw.githubusercontent.com/Rohlicek/MFE-Relaunch/master/en.json",
-            scriptLink: "https://raw.githubusercontent.com/Rohlicek/MFE-Relaunch/master/source.js",
+            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -261,7 +261,7 @@
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 120,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -271,7 +271,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 10,
+            voteSkipLimit: 5,
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 10,
@@ -282,19 +282,21 @@
             thorCooldown: 10,
             skipPosition: 2,
             skipReasons: [
+                ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
                 ["history", "This song is in the history. "],
-                ["sound", "The song you played has just EARRAPED 90% of the community XD Skipping.."],
+                ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
-                ["shit", "The song you played is just too shitty. Skipping."]
+                ["unavailable", "The song you played was not available for some users. "],
+                ["shitty" , "The song you played is nothing but shitty and f*cked up, nobody wants it"],
+                ["shit", "The song you played is nothing but shitty and f*cked up, nobody wants it"]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
             motd: "Temporary Message of the Day",
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
@@ -308,7 +310,7 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://raw.githubusercontent.com/Rohlicek/MFE-Relaunch/master/NSFWlist.json",
+                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
                 OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
                 BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
             }
@@ -3715,8 +3717,10 @@
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
                     }
                 }
-            }
+            },
+
         }
+
     };
 
     loadChat(basicBot.startup);
