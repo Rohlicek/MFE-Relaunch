@@ -248,7 +248,7 @@
     var basicBot = {
         version: '2.12.0',
         status: false,
-        name: 'basicBot',
+        name: 'MFEBOT',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -280,7 +280,7 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: true,
+            voteSkip: false,
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
