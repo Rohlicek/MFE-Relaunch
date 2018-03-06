@@ -1,0 +1,46 @@
+{
+    "room":                     "Music For Everyone",
+    "author":                   "Michal 'Rohlik' Stanko",
+    "icon":                     "https://i.imgur.com/nY4PP7u.png",
+    "css":                      "https://cdn.radiant.dj/rcs/rs_room.css",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        true,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+    },
+    "ccc": {
+        "admin":                "#8c4d4d",
+        "ambassador":           "#66b269",
+        "host":                 "#ffffff",
+        "cohost":               "#396eb0",
+        "manager":              "#4965ce",
+        "bouncer":              "#6180e6",
+        "rdj":                  "#8ea0d7",
+        "subscriber":           "#a55c38",
+        "silversubscriber":     "#9f9f9f",
+        "friend":               "#aa7e3f",
+        "user":                 "#e0e0e0"
+    },
+    "images": {
+        "background":           null,
+        "playback":             null,
+        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
+        "host":                 null,
+        "cohost":               "https://i.imgur.com/mjjiZxe.png",
+        "manager":              "https://i.imgur.com/9rrgFQi.png",
+        "bouncer":              "https://i.imgur.com/fiJW5Ra.png",
+        "rdj":                  "https://i.imgur.com/jU0Ckf7.png",
+        "subscriber":           null,
+        "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+    },
+
+    "emotes": {
+        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+    }
+}
