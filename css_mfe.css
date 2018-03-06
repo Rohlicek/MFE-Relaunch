@@ -168,7 +168,7 @@ background: #305fad;
 background:#9112C7;
 }
 #meh .bottom, #meh.selected  {
-background: #a56a2d;
+background: #ad2727;
 }
 #woot-rs{
   color: #ededed;
@@ -181,7 +181,7 @@ background: #a56a2d;
   background:#9112C7;
 }
 #meh-rs > .title , .meh {
-  background:#a56a2d;
+  background:#ad2727;
 }
 .dark-label{
   color:#719fc3;
@@ -199,6 +199,10 @@ background: #a56a2d;
 
 #rcs-progress-container {
     background:linear-gradient(0deg, #557dbf, transparent) !important;
+}
+
+.bar{
+  background:#499ec4;
 }
 
 
@@ -272,10 +276,21 @@ background: #a56a2d;
     background-size: 16px auto;
 }
 
+[data-cid^="4523933-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://i.imgur.com/L21ulka.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 16px auto;
+}
+
 
 .background img{
   display:none;
 }
+
 
 
 #rs-skip-button , #history-button{
