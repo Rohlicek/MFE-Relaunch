@@ -197,6 +197,10 @@ background: #a56a2d;
   color:#719fc3;
 }
 
+#rcs-progress-container {
+    background:linear-gradient(0deg, #557dbf, transparent) !important;
+}
+
 
 .row:hover {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
@@ -235,7 +239,7 @@ background: #a56a2d;
 }
 
 .id-3664742 {
-  background:#224fab;
+  color:#224fab;
 }
 
 [data-cid^="3821094-"] .msg .from .un {
@@ -258,6 +262,20 @@ background: #a56a2d;
     background-size: 16px auto;
 }
 
+[data-cid^="11591166-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://i.imgur.com/PLq9mSY.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 16px auto;
+}
+
+
+.background img{
+  display:none;
+}
 
 
 #rs-skip-button , #history-button{
