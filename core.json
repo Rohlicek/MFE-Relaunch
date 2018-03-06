@@ -27,7 +27,7 @@
         "user":                 "#e0e0e0"
     },
     "images": {
-        "background":           null,
+        "background":           "https://i.imgur.com/RLAO0Jj.png",
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
