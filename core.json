@@ -2,7 +2,7 @@
     "room":                     "Music For Everyone",
     "author":                   "Michal 'Rohlik' Stanko",
     "icon":                     "https://i.imgur.com/nY4PP7u.png",
-    "css":                      "https://cdn.radiant.dj/rcs/rs_room.css",
+    "css":                      "https://rawgit.com/Rohlicek/MFE-Relaunch/master/css_mfe.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
