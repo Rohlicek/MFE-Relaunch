@@ -252,7 +252,7 @@
         loggedInID: null,
         scriptLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/bot.js',
         cmdLink: 'http://94.176.239.144/mfe/mfe/bot.html',
-        chatLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/jazyk.json',
+        chatLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -260,7 +260,7 @@
         settings: {
             botName: 'MFEBOT',
             language: 'english',
-            chatLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/jazyk.json',
+            chatLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/en.json',
             scriptLink: 'https://rawgit.com/Rohlicek/MFE-Relaunch/master/bot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
