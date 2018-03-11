@@ -17,7 +17,7 @@
         "admin":                "#8c4d4d",
         "ambassador":           "#66b269",
         "host":                 "7CAFE6",
-        "cohost":               "#7CAFE6",
+        "cohost":               "",
         "manager":              "#4965ce",
         "bouncer":              "#6180e6",
         "rdj":                  "#8ea0d7",
