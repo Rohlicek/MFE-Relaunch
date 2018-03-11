@@ -230,7 +230,7 @@ background: #ad2727;
   -o-animation: fadein 0.35s;
   animation: fadein 0.35s;
 }
-
+/*
 .id-3821094 > .badge-box > i.bdg {
   background-image: url('https://i.imgur.com/wULeX6J.gif');
   background-repeat: no-repeat;
@@ -241,6 +241,7 @@ background: #ad2727;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 .id-3664742 , .un , .clickable {
   color:#224fab;
@@ -266,6 +267,15 @@ background: #ad2727;
     background-size: 16px auto;
 }
 
+*/
+ /* Farby mien */
+[data-cid^="6345878-"] .msg .from .un  {
+    color:#FF73AD;
+}
+
+
+/* koniec HEHEXD */
+
 [data-cid^="11591166-"] .msg .from .un {
     position: relative;
     left:-1px;
@@ -284,11 +294,6 @@ background: #ad2727;
     background-repeat: no-repeat;
     background-position: 2px center;
     background-size: 16px auto;
-}
-
-
-.background img{
-  display:none;
 }
 
 
