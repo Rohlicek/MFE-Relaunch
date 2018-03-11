@@ -269,11 +269,13 @@ background: #ad2727;
 
 */
  /* Farby mien */
-[data-cid^="6345878-"] .msg .from .un  {
-    color:#FF73AD;
-}
+ #chat .role-cohost .from .un {
+         color: #396eb0;
+ }
 
-
+ [data-cid^="6345878-"] .msg .from .un {
+     color: #FF73AD !important;
+ }
 /* koniec HEHEXD */
 
 [data-cid^="11591166-"] .msg .from .un {
