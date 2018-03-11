@@ -2082,7 +2082,7 @@
                     }
                 }
             },
-
+ // prikazy
             cookieCommand: {
                 command: 'cookie',
                 rank: 'user',
@@ -2123,6 +2123,34 @@
                     }
                 }
             },
+
+            discordCommand: {
+                command: 'discord',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat("/me Discord: https://discord.gg/EhnAnrn");
+                    }
+                }
+            },
+
+            instagramCommand: {
+                command: 'ig',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat("/me Rohlik's Instagram: https://www.instagram.com/miskostanko/");
+                    }
+                }
+            },
+
+            // KONIEC custom prikazov
 
             cycleCommand: {
                 command: 'cycle',
