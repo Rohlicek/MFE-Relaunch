@@ -16,7 +16,7 @@
     "ccc": {
         "admin":                "#8c4d4d",
         "ambassador":           "#66b269",
-        "host":                 "#7CAFE6",
+        "host":                 "7CAFE6",
         "cohost":               "#7CAFE6",
         "manager":              "#4965ce",
         "bouncer":              "#6180e6",
