@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS</title>
+  </head>
+  <body>
+    <p></p>
+      <script type="text/javascript">
+
+      var sprava = [
+        "Ahoj ako sa máš",
+        "Dnes je skvelý den",
+        "Co robíš",
+        "textt",
+        "testtttt",
+      ];
+
+      var d = sprava.length;
+      var x = Math.floor((Math.random() * 4) + 1);
+      document.write(sprava[x]);
+
+
+
+      API.on(API.ADVANCE, hehexd);
+
+      function hehexd () {
+
+      	setTimeout(function() {
+          var sprava = [
+            "Ahoj ako sa máš",
+            "Dnes je skvelý den",
+            "Co robíš",
+            "textt",
+            "testtttt",
+          ];
+          var x = Math.floor((Math.random() * 4) + 1);
+          API.sendChat(sprava[x]);
+      	}, (500));
+
+      }
+
+      </script>
+  </body>
+</html>
